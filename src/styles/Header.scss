@@ -1,0 +1,57 @@
+.header {
+  height: 95vh;
+  background-image: linear-gradient(
+      rgba(126, 58, 179, 0.8),
+      rgba(126, 58, 179, 0.8)
+    ),
+    url("../images/Words.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  position: relative;
+  z-index: 1000;
+}
+
+.logo h1 {
+  font-size: 8rem;
+  color: white;
+  display: inline-block;
+  position: absolute;
+  left: 1%;
+  top: 1%;
+  margin: 0;
+  font-family: "Comic Sans MS", "cursive", "sans-serif";
+}
+
+.header__content {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.header__name {
+  font-size: 8rem;
+  font-weight: 700;
+}
+
+.header__career {
+  font-size: 4rem;
+  font-weight: 300;
+  display: block;
+}
+
+a.header__btn {
+  background: white;
+  padding: 3rem 5rem;
+  display: inline-block;
+  margin-top: 3rem;
+  border-radius: 3rem;
+  font-size: 2rem;
+  color: #777;
+}

@@ -1,0 +1,26 @@
+.skills {
+  background: red;
+  padding: 20rem 0;
+  transform: skewY(-5deg);
+  margin-top: -10rem;
+}
+
+.skills__card {
+  background: white;
+  height: 35rem;
+  max-height: 40rem;
+  max-width: 30rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding: 2rem 0;
+
+  i {
+    font-size: 6rem;
+  }
+  ul li {
+    list-style: none;
+  }
+}
+.skills__unskew {
+  transform: skewY(5deg);
+}
