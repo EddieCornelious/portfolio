@@ -3,6 +3,11 @@
   padding: 20rem 0;
   margin-top: -15vh;
   position: relative;
+}
+
+.section__header {
+  text-align: center;
+  margin-bottom: 8rem;
 
   h2 {
     transition: all 0.3s ease;
@@ -18,12 +23,7 @@
     font-size: 4rem;
   }
 }
-
-.about__header {
-  text-align: center;
-  margin-bottom: 8rem;
-}
-.about__header__top__text {
+.section__header__top__text {
   display: block;
   margin-bottom: 1rem;
 }

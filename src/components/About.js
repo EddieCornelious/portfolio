@@ -6,10 +6,10 @@ import reactIMG from "../images/react.png";
 const About = () => {
   return (
     <section className="about">
-      <div className="about__header">
+      <div className="section__header">
         <h2>
-          <span className="about__header__top__text">FRONT END FOCUSED</span>
-          <span className="about__header__bottom__text">
+          <span className="section__header__top__text">FRONT END FOCUSED</span>
+          <span className="section__header__bottom__text">
             WITH FULL STACK EXPERIENCE
           </span>
         </h2>
