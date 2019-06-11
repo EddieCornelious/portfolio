@@ -1,4 +1,9 @@
 .skills__section {
+  background-image: -o-linear-gradient(
+      rgba(126, 58, 179, 0.8),
+      rgba(126, 58, 190, 0.8)
+    ),
+    url("../images/circuit.jpg");
   background-image: -webkit-gradient(
       linear,
       left top, left bottom,
@@ -31,6 +36,8 @@
   left: 0;
   right: 0;
   bottom: 0;
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/database.jpg");
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),
     url("../images/database.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -88,6 +95,7 @@
   z-index: 4;
   color: white;
   -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   margin: 0 auto;
   top: 50%;

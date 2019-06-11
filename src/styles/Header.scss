@@ -1,5 +1,10 @@
 .header {
   height: 95vh;
+  background-image: -o-linear-gradient(
+      rgba(126, 58, 179, 0.8),
+      rgba(126, 58, 179, 0.8)
+    ),
+    url("../images/Words.gif");
   background-image: -webkit-gradient(
       linear,
       left top, left bottom,
