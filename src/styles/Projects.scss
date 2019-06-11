@@ -1,5 +1,23 @@
 .projects__section {
-  background: red;
+  background: #f7f7f7;
   padding: 20rem 0;
   margin-top: -8rem;
+}
+
+.project__card {
+  background: white;
+  height: 50rem;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.project__card__top {
+  background: black;
+  height: 60%;
+}
+
+.project__card__bottom {
+  background: blue;
+  height: 40%;
 }
