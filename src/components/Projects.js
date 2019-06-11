@@ -14,7 +14,7 @@ const ProjectCard = ({ project, show }) => {
           <p>{project.info}</p>
           <a target="_blank" href={project.github}>
             <span>GITHUB </span>
-            <i class="fab fa-github" />
+            <i className="fab fa-github" />
           </a>
         </div>
       </div>
