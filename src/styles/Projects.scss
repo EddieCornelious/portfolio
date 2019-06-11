@@ -6,19 +6,46 @@
 
 .project__card {
   background: white;
-  height: 50rem;
+  height: 55rem;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  width: 80%;
-  margin: 1rem auto;
+
+
 }
 
 .project__card__top {
-  background: black;
+  cursor: pointer;
   height: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
 }
 
 .project__card__bottom {
-  background: blue;
   height: 40%;
+  text-align: center;
+  padding: 2rem;
+
+
+  h3{
+    margin-top: 0!important;
+    font-weight: 700;
+    color: black;
+  }
+
+  p{
+    font-size: 1.6rem;
+    color: black;
+  }
+  a{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: inherit;
+  }
 }

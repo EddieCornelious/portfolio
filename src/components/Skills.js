@@ -11,7 +11,7 @@ const SkillsCard = ({ first, data }) => {
           <h3>{data.title}</h3>
           <ul className="skills__list">
             {data.skills.map(e => {
-              return <li>{e}</li>;
+              return <li key={e}>{e}</li>;
             })}
           </ul>
         </div>

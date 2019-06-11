@@ -5,6 +5,7 @@ import About from "./About.js";
 import Skills from "./Skills.js";
 import skillsData from "./skills_data.js";
 import Projects from "./Projects.js";
+import projectsData from "./project_data.js";
 
 class App extends React.Component {
   state = {
@@ -15,12 +16,15 @@ class App extends React.Component {
       loadedHero: true
     });
   }
+  showProject(project) {
+    console.log(project);
+  }
 
   render() {
     if (!this.state.loadedHero) {
       setTimeout(() => {
         this.renderLoadedApp();
-      }, 4000);
+      }, 3000);
       return null;
     }
 
@@ -29,7 +33,10 @@ class App extends React.Component {
         <Header />
         <About />
         <Skills data={skillsData} />
-        <Projects />
+        <Projects
+          showProject={this.showProject.bind(this)}
+          data={projectsData}
+        />
       </React.Fragment>
     );
   }
