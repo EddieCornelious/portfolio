@@ -7,7 +7,8 @@
 .project__card {
   background: white;
   height: 50rem;
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   width: 80%;
   margin: 1rem auto;
 }

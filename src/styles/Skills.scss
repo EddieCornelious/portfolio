@@ -1,4 +1,11 @@
 .skills__section {
+  background-image: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgba(126, 58, 179, 0.8)),
+      to(rgba(126, 58, 190, 0.8))
+    ),
+    url("../images/circuit.jpg");
   background-image: linear-gradient(
       rgba(126, 58, 179, 0.8),
       rgba(126, 58, 190, 0.8)
@@ -9,7 +16,9 @@
   background-size: cover;
 
   padding: 20rem 0;
-  transform: skewY(-5deg);
+  -webkit-transform: skewY(-5deg);
+      -ms-transform: skewY(-5deg);
+          transform: skewY(-5deg);
   margin-top: -10rem;
 }
 
@@ -22,6 +31,8 @@
   left: 0;
   right: 0;
   bottom: 0;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),
+    url("../images/database.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/database.jpg");
   background-position: center;
@@ -51,7 +62,9 @@
   }
 }
 .skills__unskew {
-  transform: skewY(5deg);
+  -webkit-transform: skewY(5deg);
+      -ms-transform: skewY(5deg);
+          transform: skewY(5deg);
 }
 
 .skills__card:hover {
@@ -74,11 +87,14 @@
   padding: 4rem 0;
   z-index: 4;
   color: white;
+  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   margin: 0 auto;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   color: rgba(126, 58, 179, 0.6);
 }
 
