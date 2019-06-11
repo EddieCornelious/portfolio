@@ -23,7 +23,7 @@ const ProjectCard = ({ project, show }) => {
 };
 const Projects = ({ data, showProject }) => {
   return (
-    <section className="projects__section">
+    <section id="projects" className="projects__section">
       <div className="section__header">
         <h2>
           <span className="section__header__top__text">PROJECT PORTFOLIO</span>
