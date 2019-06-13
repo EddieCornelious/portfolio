@@ -2,10 +2,10 @@ import manuels from "../images/manuels.PNG";
 import wick from "../images/realtor.PNG";
 import stream from "../images/stream.PNG";
 import fitness from "../images/gym.PNG";
-import demo1 from "../images/gym_demo.webm";
-import demo2 from "../images/manuel_demo.webm";
-import demo3 from "../images/real_estate_demo.webm";
-import demo4 from "../images/stream_demo.webm";
+import demo1 from "../images/gym.mp4";
+import demo2 from "../images/manuel.mp4";
+import demo3 from "../images/real_estate.mp4";
+import demo4 from "../images/stream.mp4";
 const data = {
   1: {
     title: "Manuel's",
