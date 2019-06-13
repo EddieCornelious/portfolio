@@ -12,7 +12,7 @@ const ProjectCard = ({ project, show }) => {
         <div className="project__card__bottom">
           <h3>{project.title}</h3>
           <p>{project.info}</p>
-          <a target="_blank" href={project.github}>
+          <a rel="noopener noreferrer" target="_blank" href={project.github}>
             <span>GITHUB </span>
             <i className="fab fa-github" />
           </a>
