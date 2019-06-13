@@ -3,11 +3,13 @@ import React from "react";
 import nodeIMG from "../images/nodejs.png";
 import jsIMG from "../images/javascript.png";
 import reactIMG from "../images/react.png";
+import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
 const About = () => {
   return (
     <section className="about">
       <div className="section__header">
-        <h2>
+        <h2 className="section__head">
           <span className="section__header__top__text">FRONT END FOCUSED</span>
           <span className="section__header__bottom__text">
             WITH FULL STACK EXPERIENCE
@@ -18,9 +20,11 @@ const About = () => {
         <div className="row">
           <div className="col-sm-6">
             <div className="col-sm-12">
-              <h3 className="ethic__text__header">
-                MOTIVATED TO PRODUCE RESULTS
-              </h3>
+              <Fade top>
+                <h3 className="ethic__text__header">
+                  MOTIVATED TO PRODUCE RESULTS
+                </h3>
+              </Fade>
               <p className="ethic__text">
                 As a tenacious self-taught programmer, I use continuous
                 iteration to produce results quickly and continuously improve
@@ -28,9 +32,11 @@ const About = () => {
               </p>
             </div>
             <div className="col-sm-12">
-              <h3 className="ethic__text__header">
-                MOTIVATED TO PRODUCE RESULTS
-              </h3>
+              <Fade bottom>
+                <h3 className="ethic__text__header">
+                  MOTIVATED TO PRODUCE RESULTS
+                </h3>
+              </Fade>
               <p className="ethic__text">
                 As a tenacious self-taught programmer, I use continuous
                 iteration to produce results quickly and continuously improve
@@ -40,9 +46,13 @@ const About = () => {
           </div>
           <div className="col-sm-6">
             <div className="skill__image__container">
-              <img alt="node js" src={nodeIMG} />
+              <Slide left>
+                <img alt="node js" src={nodeIMG} />
+              </Slide>
               <img alt="react" src={jsIMG} />
-              <img alt="js" src={reactIMG} />
+              <Slide right>
+                <img alt="js" src={reactIMG} />
+              </Slide>
             </div>
           </div>
         </div>

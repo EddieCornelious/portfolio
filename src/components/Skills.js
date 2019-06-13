@@ -1,5 +1,6 @@
 import "../styles/Skills.scss";
 import React from "react";
+import Bounce from "react-reveal/Bounce";
 
 const SkillsCard = ({ first, data }) => {
   return (
@@ -24,10 +25,18 @@ const Skills = ({ data }) => {
     <section className="skills__section">
       <div className="container skills__unskew">
         <div className="row">
-          <SkillsCard data={data[1]} first={true} />
-          <SkillsCard data={data[2]} />
-          <SkillsCard data={data[3]} />
-          <SkillsCard data={data[4]} />
+          <Bounce bottom>
+            <SkillsCard data={data[1]} first={true} />
+          </Bounce>
+          <Bounce bottom>
+            <SkillsCard data={data[2]} />
+          </Bounce>
+          <Bounce bottom>
+            <SkillsCard data={data[3]} />
+          </Bounce>
+          <Bounce bottom>
+            <SkillsCard data={data[4]} />
+          </Bounce>
         </div>
       </div>
     </section>

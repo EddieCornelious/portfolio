@@ -1,5 +1,7 @@
 import "../styles/Header.scss";
 import React from "react";
+import Slide from "react-reveal/Slide";
+import Roll from "react-reveal/Roll";
 
 const Header = () => {
   return (
@@ -8,11 +10,17 @@ const Header = () => {
         <h1>EC</h1>
       </div>
       <div className="header__content">
-        <h1 className="header__name">EDDIE CORNELIOUS</h1>
-        <em className="header__career">FRONT END ENGINEER</em>
-        <a href="#projects" className="header__btn">
-          SEE PROJECTS
-        </a>
+        <Roll left cascade>
+          <h1 className="header__name">EDDIE CORNELIOUS</h1>
+        </Roll>
+        <Slide right>
+          <em className="header__career">FRONT END ENGINEER</em>
+        </Slide>
+        <Slide bottom>
+          <a href="#projects" className="header__btn">
+            SEE PROJECTS
+          </a>
+        </Slide>
       </div>
     </section>
   );

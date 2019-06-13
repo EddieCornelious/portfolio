@@ -1,23 +1,26 @@
 import "../styles/Projects.scss";
 import React from "react";
+import Fade from "react-reveal/Slide";
 
 const ProjectCard = ({ project, show }) => {
   return (
     <div className="small-margin col-md-4">
-      <div onClick={() => show(project)} className="project__card">
-        <div className="project__card__top">
-          <img alt={project.title} src={project.img_src} />
-        </div>
+      <Fade bottom>
+        <div onClick={() => show(project)} className="project__card">
+          <div className="project__card__top">
+            <img alt={project.title} src={project.img_src} />
+          </div>
 
-        <div className="project__card__bottom">
-          <h3>{project.title}</h3>
-          <p>{project.info}</p>
-          <a rel="noopener noreferrer" target="_blank" href={project.github}>
-            <span>GITHUB </span>
-            <i className="fab fa-github" />
-          </a>
+          <div className="project__card__bottom">
+            <h3>{project.title}</h3>
+            <p>{project.info}</p>
+            <a rel="noopener noreferrer" target="_blank" href={project.github}>
+              <span>GITHUB </span>
+              <i className="fab fa-github" />
+            </a>
+          </div>
         </div>
-      </div>
+      </Fade>
     </div>
   );
 };
@@ -32,8 +35,11 @@ const Projects = ({ data, showProject }) => {
       <div className="container-fluid">
         <div className="row">
           <ProjectCard show={showProject} project={data["1"]} />
+
           <ProjectCard show={showProject} project={data["2"]} />
+
           <ProjectCard show={showProject} project={data["3"]} />
+
           <ProjectCard show={showProject} project={data["4"]} />
         </div>
       </div>
