@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "9dc33553e1293a6c22af",
-    "url": "/portfolio/static/css/main.5a7f08cb.chunk.css"
+    "revision": "1f1cfe81f86cf94c9f32",
+    "url": "/portfolio/static/css/main.0db1f192.chunk.css"
   },
   {
-    "revision": "9dc33553e1293a6c22af",
-    "url": "/portfolio/static/js/main.347f4028.chunk.js"
+    "revision": "1f1cfe81f86cf94c9f32",
+    "url": "/portfolio/static/js/main.cfbee400.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
     "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
   },
   {
-    "revision": "c0ebd2ed224727c642f3",
-    "url": "/portfolio/static/js/2.b3426444.chunk.js"
+    "revision": "0c499218278b56cd3cc2",
+    "url": "/portfolio/static/js/2.80ebfc06.chunk.js"
   },
   {
     "revision": "72808ec0f39241421557b0da7aba62a2",
@@ -72,7 +72,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/circuit.8ae48a2b.jpg"
   },
   {
-    "revision": "1035396ebcb4a5bd091c4c4f5daab8a7",
+    "revision": "8a5d82593783cd3525a70e992965b4fd",
     "url": "/portfolio/index.html"
   }
 ];
