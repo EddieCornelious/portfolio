@@ -18,8 +18,8 @@ class ProjectDemo extends React.Component {
         </button>
 
         <div className="project__demo">
-          <video loop={true} autoPlay={true}>
-            <source src={this.props.currentDemo} type="video/webm" />
+          <video controls={true} loop={true} autoPlay={true}>
+            <source src={this.props.currentDemo} type="video/mp4" />
           </video>
         </div>
       </div>
