@@ -20,7 +20,7 @@ const About = () => {
         <div className="row">
           <div className="col-sm-6">
             <div className="col-sm-12">
-              <Fade top>
+              <Fade left>
                 <h3 className="ethic__text__header">
                   MOTIVATED TO PRODUCE RESULTS
                 </h3>
@@ -32,7 +32,7 @@ const About = () => {
               </p>
             </div>
             <div className="col-sm-12">
-              <Fade bottom>
+              <Fade left>
                 <h3 className="ethic__text__header">
                   ALWAYS WILLING TO LEARN NEW THINGS
                 </h3>
