@@ -34,13 +34,12 @@ const About = () => {
             <div className="col-sm-12">
               <Fade bottom>
                 <h3 className="ethic__text__header">
-                  MOTIVATED TO PRODUCE RESULTS
+                  ALWAYS WILLING TO LEARN NEW THINGS
                 </h3>
               </Fade>
               <p className="ethic__text">
-                As a tenacious self-taught programmer, I use continuous
-                iteration to produce results quickly and continuously improve
-                products.
+                I'm always looking to improve my current skill set, as well as
+                learn new skills that can be added to my Web Developer toolbelt.
               </p>
             </div>
           </div>
