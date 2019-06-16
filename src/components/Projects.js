@@ -8,6 +8,15 @@ const ProjectCard = ({ project, show }) => {
       <Fade bottom>
         <div onClick={() => show(project)} className="project__card">
           <div className="project__card__top">
+            <div className="project__card__top__overlay">
+              <a
+                className="project__card__top__btn"
+                onClick={() => show(project)}
+                href="#projects"
+              >
+                VIEW DEMO
+              </a>
+            </div>
             <img alt={project.title} src={project.img_src} />
           </div>
 
