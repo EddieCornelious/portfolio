@@ -23,7 +23,7 @@ const SkillsCard = ({ first, data, id }) => {
 const Skills = ({ data }) => {
   return (
     <section className="skills__section">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="skills__unskew">
             <Slide left>

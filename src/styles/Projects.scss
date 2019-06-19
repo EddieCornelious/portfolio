@@ -23,6 +23,11 @@
     margin: 0 auto;
     width: 85%;
   }
+  @include respond($phone) {
+    height: 45rem;
+    margin: 0 auto;
+    width: 100%;
+  }
 }
 
 .project__card__top {
