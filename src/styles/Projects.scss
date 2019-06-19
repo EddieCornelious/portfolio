@@ -9,24 +9,19 @@
 
 .project__card {
   background: white;
-  height: 55rem;
+  height: 50rem;
   -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   border-bottom-left-radius: 0.6rem;
   border-bottom-right-radius: 0.6rem;
-  @include respond($desktop) {
-    height: 45rem;
-    margin: 0 auto;
-  }
   @include respond($tab-land) {
     height: 45rem;
     margin: 0 auto;
-    width: 85%;
+    width: 75%;
   }
   @include respond($phone) {
     height: 45rem;
     margin: 0 auto;
-    width: 100%;
   }
 }
 

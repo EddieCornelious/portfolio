@@ -11,7 +11,10 @@
 }
 html {
   font-size: 10px;
-  @include respond($tab-land) {
+  @include respond($desktop) {
+    font-size: 9px;
+  }
+  @include respond($tab_land) {
     font-size: 8px;
   }
   @include respond($phone) {
@@ -22,8 +25,12 @@ html {
 body {
   background-color: white;
   font-family: "Spectral";
-  padding: 4rem 4rem 0 4rem;
+  padding: 1.5rem 1.5rem 0 1.5rem;
   color: #777;
+
+  @include respond($tab_land) {
+    padding: 0;
+  }
 }
 .small-margin {
   margin-top: 30px;

@@ -4,24 +4,26 @@
 // 1200-1800 normal sized desktop
 //1800 where base styles apply
 
+@import "variables";
+
 @mixin respond($breakpoint) {
   @if $breakpoint == $phone {
-    @media (max-width: 600px) {
+    @media screen and (max-width: 600px) and (min-width: 0px) {
       @content;
     }
   }
-  @if $breakpoint == $tab-land {
-    @media (max-width: 900px) {
+  @if $breakpoint == $tab_land {
+    @media screen and (max-width: 900px) and (min-width: 601px) {
       @content;
     }
   }
   @if $breakpoint == $desktop {
-    @media (max-width: 1200px) {
+    @media screen and (max-width: 1200px) and (min-width: 901px) {
       @content;
     }
   }
-  @if $breakpoint == $big-desktop {
-    @media (max-width: 1800px) {
+  @if $breakpoint == $big_desktop {
+    @media screen and (max-width: 1800px) and (min-width: 1201px) {
       @content;
     }
   }

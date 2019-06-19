@@ -4,7 +4,7 @@ import Fade from "react-reveal/Slide";
 
 const ProjectCard = ({ project, show }) => {
   return (
-    <div className="small-margin col-md-4">
+    <div className="small-margin col-md-6 col-lg-4">
       <Fade bottom>
         <div onClick={() => show(project)} className="project__card">
           <div className="project__card__top">

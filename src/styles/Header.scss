@@ -56,6 +56,9 @@
 .header__name {
   font-size: 9rem;
   font-weight: 700;
+  @include respond($tab_land) {
+    font-size: 8rem;
+  }
   @include respond($phone) {
     font-size: 5rem;
   }
