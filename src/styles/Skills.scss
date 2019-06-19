@@ -6,7 +6,8 @@
     url("../images/circuit.jpg");
   background-image: -webkit-gradient(
       linear,
-      left top, left bottom,
+      left top,
+      left bottom,
       from(rgba(126, 58, 179, 0.8)),
       to(rgba(126, 58, 190, 0.8))
     ),
@@ -40,13 +41,19 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 }
 
 .skills__card__overlay.overlay__1 {
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/internet.jpg");
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.5)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
     url("../images/internet.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/internet.jpg");
@@ -54,7 +61,13 @@
 .skills__card__overlay.overlay__2 {
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/server.jpg");
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.5)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
     url("../images/server.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/server.jpg");
@@ -63,7 +76,13 @@
 .skills__card__overlay.overlay__3 {
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/database.jpg");
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.5)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
     url("../images/database.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/database.jpg");
@@ -72,7 +91,13 @@
 .skills__card__overlay.overlay__4 {
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/deployment.jpg");
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))),
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.5)),
+      to(rgba(0, 0, 0, 0.5))
+    ),
     url("../images/deployment.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/deployment.jpg");
@@ -82,11 +107,9 @@
   position: relative;
   background: rgba(255, 255, 255, 0.8);
   height: 35rem;
-  max-height: 40rem;
-  max-width: 30rem;
   margin: 1rem auto;
   z-index: 1;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
 
   i {
     font-size: 6rem;

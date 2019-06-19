@@ -1,3 +1,6 @@
+@import "mixins";
+@import "variables";
+
 .header {
   height: 95vh;
   background-image: -o-linear-gradient(
@@ -7,7 +10,8 @@
     url("../images/Words.gif");
   background-image: -webkit-gradient(
       linear,
-      left top, left bottom,
+      left top,
+      left bottom,
       from(rgba(126, 58, 179, 0.8)),
       to(rgba(126, 58, 179, 0.8))
     ),
@@ -43,15 +47,18 @@
   left: 50%;
   top: 35%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
 }
 
 .header__name {
-  font-size: 8rem;
+  font-size: 9rem;
   font-weight: 700;
+  @include respond($phone) {
+    font-size: 5rem;
+  }
 }
 
 .header__career {
