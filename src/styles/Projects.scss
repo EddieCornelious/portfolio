@@ -23,6 +23,10 @@
     height: 45rem;
     margin: 0 auto;
   }
+  @media screen and (max-width: 991px) and (min-width: 901px) {
+    width: 75%;
+    margin: 0 auto;
+  }
 }
 
 .project__card__top {
