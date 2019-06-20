@@ -15,7 +15,7 @@ const data = {
     demo: demo2
   },
   1: {
-    title: "John and Wick",
+    title: "John & Wrink",
     info: "A Real-Estate site built using HTML, NodeJS, CSS, and React",
     img_src: wick,
     github: "https://github.com/EddieCornelious/homes",
