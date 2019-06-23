@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a6d8f8687e9169a06b79",
+    "revision": "f7a353a542fffbfdbf02",
     "url": "/portfolio/static/css/main.de7cebdd.chunk.css"
   },
   {
-    "revision": "a6d8f8687e9169a06b79",
-    "url": "/portfolio/static/js/main.11bca631.chunk.js"
+    "revision": "f7a353a542fffbfdbf02",
+    "url": "/portfolio/static/js/main.f665d17a.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -28,20 +28,20 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/react.1e71b459.png"
   },
   {
-    "revision": "5c6f264ef9a619de736a919cdd410576",
-    "url": "/portfolio/static/media/manuels.5c6f264e.PNG"
+    "revision": "b3d5f725e1af52d63f87abf460303e2e",
+    "url": "/portfolio/static/media/manuels.b3d5f725.PNG"
   },
   {
-    "revision": "85ab7a7c7ca09a50eb3f8ff9d8487aac",
-    "url": "/portfolio/static/media/realtor.85ab7a7c.PNG"
+    "revision": "2b3b4453961e7858f362ffdd80a3bb40",
+    "url": "/portfolio/static/media/realtor.2b3b4453.PNG"
   },
   {
-    "revision": "01e45e4fe8f44babcbe9a9d24e8b42a7",
-    "url": "/portfolio/static/media/stream.01e45e4f.PNG"
+    "revision": "adfaf2dd5f485b9d253303fb10faf569",
+    "url": "/portfolio/static/media/stream.adfaf2dd.PNG"
   },
   {
-    "revision": "eedca664dc4de09792957d139d92df94",
-    "url": "/portfolio/static/media/gym.eedca664.PNG"
+    "revision": "00665fa1cf125da9acb7f5a156bf43d1",
+    "url": "/portfolio/static/media/gym.00665fa1.PNG"
   },
   {
     "revision": "92880e30c1251befdc7b4f66415565c9",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/server.6da359df.jpg"
   },
   {
-    "revision": "f33125735bfcf9fbb75fd2f885929d93",
+    "revision": "9ce335f023ef273fb823373af9969b57",
     "url": "/portfolio/index.html"
   }
 ];
