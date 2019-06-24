@@ -45,7 +45,7 @@ const About = () => {
           </div>
           <div className="col-sm-12 col-md-6">
             <div className="skill__image__container">
-              <Slide left>
+              <Slide bottom>
                 <img alt="node js" src={nodeIMG} />
               </Slide>
               <img alt="react" src={jsIMG} />

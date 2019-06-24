@@ -22,7 +22,13 @@
   }
   h2 span {
     background-image: -o-linear-gradient(left, #7e3ab3, #b452ff);
-    background-image: -webkit-gradient(linear, left top, right top, from(#7e3ab3), to(#b452ff));
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#7e3ab3),
+      to(#b452ff)
+    );
     background-image: linear-gradient(to right, #7e3ab3, #b452ff);
     background-clip: text;
     -webkit-background-clip: text;
@@ -38,6 +44,12 @@
 .skill__image__container {
   img {
     width: 20rem;
+    @media screen and (max-width: 1306px) {
+      width: 17rem;
+    }
+    @media screen and (max-width: 1022px) {
+      width: 15rem;
+    }
   }
 }
 
