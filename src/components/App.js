@@ -8,6 +8,7 @@ import Projects from "./Projects.js";
 import projectsData from "./project_data.js";
 import ProjectDemo from "./ProjectDemo.js";
 import Footer from "./Footer.js";
+import Loader from "./Loader.js";
 
 class App extends React.Component {
   constructor(props) {
@@ -22,18 +23,16 @@ class App extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.renderLoadedApp();
-    }, 1000);
+    }, 3000);
   }
 
   renderLoadedApp() {
     this.setState({
-      loadedHero: true,
-      firstRender: false
+      loadedHero: true
     });
   }
 
   showProject(project) {
-    console.log(project);
     this.setState({
       shouldShowDemo: true,
       currentDemo: project.demo
@@ -49,7 +48,7 @@ class App extends React.Component {
 
   render() {
     if (!this.state.loadedHero) {
-      return null;
+      return <Loader />;
     }
     return (
       <React.Fragment>
