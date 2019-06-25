@@ -4,7 +4,27 @@ import nodeIMG from "../images/nodejs.png";
 import jsIMG from "../images/javascript.png";
 import reactIMG from "../images/react.png";
 import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
+import RubberBand from "react-reveal/RubberBand";
+
+const AboutText = ({ text, header }) => {
+  return (
+    <React.Fragment>
+      <Fade left>
+        <h3 className="ethic__text__header">{header}</h3>
+      </Fade>
+      <p className="ethic__text">{text}</p>
+    </React.Fragment>
+  );
+};
+
+const AboutImage = ({ delay, imgSrc, alt }) => {
+  return (
+    <RubberBand delay={delay}>
+      <img alt={alt} src={imgSrc} />
+    </RubberBand>
+  );
+};
+
 const About = () => {
   return (
     <section className="about">
@@ -20,38 +40,26 @@ const About = () => {
         <div className="row">
           <div className="col-sm-12 col-md-6">
             <div className="col-sm-12">
-              <Fade left>
-                <h3 className="ethic__text__header">
-                  MOTIVATED TO PRODUCE RESULTS
-                </h3>
-              </Fade>
-              <p className="ethic__text">
-                As a tenacious self-taught programmer, I use continuous
-                iteration to produce results quickly and continuously improve
-                products.
-              </p>
+              <AboutText
+                header="MOTIVATED TO PRODUCE RESULTS"
+                text="As a tenacious self-taught programmer, I use continuous
+             iteration to produce results quickly and continuously improve
+             products."
+              />
             </div>
             <div className="col-sm-12">
-              <Fade left>
-                <h3 className="ethic__text__header">
-                  ALWAYS WILLING TO LEARN NEW THINGS
-                </h3>
-              </Fade>
-              <p className="ethic__text">
-                I'm always looking to improve my current skill set, as well as
-                learn new skills that can be added to my Web Developer toolbelt.
-              </p>
+              <AboutText
+                header="ALWAYS WILLING TO LEARN NEW THINGS"
+                text="I'm always looking to improve my current skill set, as well as
+                learn new skills that can be added to my Web Developer toolbelt."
+              />
             </div>
           </div>
           <div className="col-sm-12 col-md-6">
             <div className="skill__image__container">
-              <Slide bottom>
-                <img alt="node js" src={nodeIMG} />
-              </Slide>
-              <img alt="react" src={jsIMG} />
-              <Slide right>
-                <img alt="js" src={reactIMG} />
-              </Slide>
+              <AboutImage alt={"Node Image"} imgSrc={nodeIMG} delay={1000} />
+              <AboutImage alt={"JS Image"} imgSrc={jsIMG} delay={2000} />
+              <AboutImage alt={"React Image"} imgSrc={reactIMG} delay={3000} />
             </div>
           </div>
         </div>
