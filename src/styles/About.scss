@@ -16,9 +16,9 @@
     transition: all 0.3s ease;
   }
   h2:hover {
-    -webkit-transform: skew(5deg, 5deg);
-    -ms-transform: skew(5deg, 5deg);
-    transform: skew(5deg, 5deg);
+    -webkit-transform: skew(1deg, 1deg);
+    -ms-transform: skew(1deg, 1deg);
+    transform: skew(1deg, 1deg);
   }
   h2 span {
     background-image: -o-linear-gradient(left, #7e3ab3, #b452ff);
