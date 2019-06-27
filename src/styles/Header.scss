@@ -31,7 +31,7 @@
 }
 
 .logo h1 {
-  font-size: 8rem;
+  font-size: 7rem;
   color: white;
   display: inline-block;
   position: absolute;
@@ -57,7 +57,7 @@
   font-size: 9rem;
   font-weight: 700;
   @include respond($tab_land) {
-    font-size: 8rem;
+    font-size: 7rem;
   }
   @include respond($phone) {
     font-size: 5rem;
@@ -72,7 +72,7 @@
 
 a.header__btn {
   background: white;
-  padding: 3rem 5rem;
+  padding: 2rem 3.5rem;
   display: inline-block;
   margin-top: 3rem;
   border-radius: 3rem;

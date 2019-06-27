@@ -43,12 +43,12 @@
 
 .skill__image__container {
   img {
-    width: 20rem;
-    @media screen and (max-width: 1306px) {
-      width: 17rem;
+    width: 18rem;
+    @media screen and (min-width: 1023px) and (max-width: 1306px) {
+      width: 16rem;
     }
     @media screen and (max-width: 1022px) {
-      width: 15rem;
+      width: 14rem;
     }
   }
 }
@@ -60,9 +60,9 @@
 
 .ethic__text__header {
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .ethic__text {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
 }
