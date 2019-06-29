@@ -10,6 +10,9 @@
 }
 html {
   font-size: 10px;
+  @media screen and (max-width: 1700px) {
+    font-size: 8px;
+  }
   @include respond(desktop) {
     font-size: 7px;
   }

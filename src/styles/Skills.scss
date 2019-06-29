@@ -139,7 +139,7 @@
   transform: skewY(5deg);
 }
 
-.skills__card:hover {
+.skills__card:not(.card__first):hover {
   .skills__card__content {
     top: 45%;
     color: white;
