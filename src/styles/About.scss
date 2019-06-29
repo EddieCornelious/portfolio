@@ -1,3 +1,5 @@
+@import "mixins.scss";
+
 .about {
   background: #f7f7f7;
   padding: 20rem 0;
@@ -43,13 +45,7 @@
 
 .skill__image__container {
   img {
-    width: 18rem;
-    @media screen and (min-width: 1023px) and (max-width: 1306px) {
-      width: 16rem;
-    }
-    @media screen and (max-width: 1022px) {
-      width: 14rem;
-    }
+    width: 20rem;
   }
 }
 
@@ -64,5 +60,5 @@
 }
 
 .ethic__text {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }

@@ -1,5 +1,4 @@
 @import "mixins";
-@import "variables";
 
 * {
   margin: 0;
@@ -11,14 +10,12 @@
 }
 html {
   font-size: 10px;
-  @include respond($desktop) {
-    font-size: 9px;
-  }
-  @include respond($tab_land) {
-    font-size: 8px;
-  }
-  @include respond($phone) {
+  @include respond(desktop) {
     font-size: 7px;
+  }
+
+  @include respond(tab-port) {
+    font-size: 6px;
   }
 }
 
@@ -29,7 +26,7 @@ body {
   color: #777;
   overflow-x: hidden;
 
-  @include respond($tab_land) {
+  @include respond(tab-land) {
     padding: 0;
   }
 }

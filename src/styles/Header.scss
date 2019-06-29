@@ -1,5 +1,4 @@
 @import "mixins";
-@import "variables";
 
 .header {
   height: 95vh;
@@ -56,10 +55,10 @@
 .header__name {
   font-size: 9rem;
   font-weight: 700;
-  @include respond($tab_land) {
+  @include respond(tab_land) {
     font-size: 7rem;
   }
-  @include respond($phone) {
+  @include respond(phone) {
     font-size: 5rem;
   }
 }
