@@ -10,6 +10,10 @@
 }
 html {
   font-size: 10px;
+  @media screen and (min-width: 2560px) {
+    font-size: 12px;
+  }
+
   @media screen and (max-width: 1700px) {
     font-size: 8px;
   }
