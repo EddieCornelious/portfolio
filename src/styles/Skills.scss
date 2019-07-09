@@ -112,7 +112,7 @@
   margin: 1rem auto;
   z-index: 1;
   border-radius: 0.5rem;
-
+  max-width: 300px;
   i {
     font-size: 6rem;
   }
@@ -127,7 +127,6 @@
   @media screen and (max-width: 991px) {
     width: 80%;
     margin: 1rem auto;
-    max-width: 400px;
   }
 
   @include respond(phone) {

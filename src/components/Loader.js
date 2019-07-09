@@ -3,11 +3,11 @@ import React from "react";
 
 const Loader = () => {
   return (
-    <div class="loader-container">
-      <div class="loader">
-        <div class="inner one" />
-        <div class="inner two" />
-        <div class="inner three" />
+    <div className="loader-container">
+      <div className="loader">
+        <div className="inner one" />
+        <div className="inner two" />
+        <div className="inner three" />
       </div>
     </div>
   );
