@@ -1,6 +1,7 @@
 import "../styles/Projects.scss";
 import React from "react";
 import Fade from "react-reveal/Slide";
+import LazyLoad from "react-lazyload";
 
 const ProjectCard = ({ project, show }) => {
   return (
@@ -17,7 +18,9 @@ const ProjectCard = ({ project, show }) => {
                 VIEW DEMO
               </a>
             </div>
-            <img alt={project.title} src={project.img_src} />
+            <LazyLoad>
+              <img alt={project.title} src={project.img_src} />
+            </LazyLoad>
           </div>
 
           <div className="project__card__bottom">

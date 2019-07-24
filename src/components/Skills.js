@@ -1,12 +1,15 @@
 import "../styles/Skills.scss";
 import React from "react";
 import Slide from "react-reveal/Slide";
+import LazyLoad from "react-lazyload";
 
 const SkillsCard = ({ first, data, id }) => {
   return (
     <div className="col-md-3">
       <div className={first ? "skills__card card__first" : "skills__card"}>
-        <div className={"skills__card__overlay overlay__" + id}>&nbsp;</div>
+        <LazyLoad>
+          <div className={"skills__card__overlay overlay__" + id}>&nbsp;</div>
+        </LazyLoad>
         <div className="skills__card__content">
           <i className={data.font} />
           <h3>{data.title}</h3>
