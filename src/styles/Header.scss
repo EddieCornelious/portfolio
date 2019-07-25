@@ -9,7 +9,8 @@
     url("../images/bg.jpg");
   background-image: -webkit-gradient(
       linear,
-      left top, left bottom,
+      left top,
+      left bottom,
       from(rgba(126, 58, 179, 0.8)),
       to(rgba(126, 58, 179, 0.8))
     ),
