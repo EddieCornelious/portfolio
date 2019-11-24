@@ -1,5 +1,5 @@
 {
-  "main.css": "/static/css/main.92e6e971.chunk.css",
+  "main.css": "/static/css/main.2eea5936.chunk.css",
   "main.js": "/static/js/main.d82aba94.chunk.js",
   "main.js.map": "/static/js/main.d82aba94.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -7,9 +7,9 @@
   "static/js/2.fb0bff41.chunk.js": "/static/js/2.fb0bff41.chunk.js",
   "static/js/2.fb0bff41.chunk.js.map": "/static/js/2.fb0bff41.chunk.js.map",
   "index.html": "/index.html",
-  "precache-manifest.927adfda50e9f5b542cf25ff97652754.js": "/precache-manifest.927adfda50e9f5b542cf25ff97652754.js",
+  "precache-manifest.530f7fc59663f6bbd4765c0ea850d22b.js": "/precache-manifest.530f7fc59663f6bbd4765c0ea850d22b.js",
   "service-worker.js": "/service-worker.js",
-  "static/css/main.92e6e971.chunk.css.map": "/static/css/main.92e6e971.chunk.css.map",
+  "static/css/main.2eea5936.chunk.css.map": "/static/css/main.2eea5936.chunk.css.map",
   "static/media/Header.scss": "/static/media/bg.9e9b2387.jpg",
   "static/media/Skills.scss": "/static/media/server.6da359df.jpg",
   "static/media/gym.PNG": "/static/media/gym.00665fa1.PNG",
