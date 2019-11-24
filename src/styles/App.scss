@@ -9,20 +9,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 html {
-  font-size: 10px;
-  @media screen and (min-width: 2560px) {
-    font-size: 12px;
+  font-size: 62.5%;
+  @media screen and (min-width: 160em) {
+    font-size: 75%;
   }
 
-  @media screen and (max-width: 1700px) {
-    font-size: 8px;
+  @media screen and (max-width: 106.25em) {
+    font-size: 50%;
   }
   @include respond(desktop) {
-    font-size: 7px;
+    font-size: 43.75%;
   }
 
   @include respond(tab-port) {
-    font-size: 6px;
+    font-size: 37.5%;
   }
 }
 
