@@ -3,17 +3,28 @@ import React from "react";
 import Fade from "react-reveal/Slide";
 import LazyLoad from "react-lazyload";
 
-const ProjectCard = ({ project, show }) => {
+function dummy() {
+  return null;
+}
+const ProjectCard = ({ project, show, link }) => {
   return (
     <div className="small-margin col-md-6 col-lg-4">
       <Fade bottom>
-        <div onClick={() => show(project)} className="project__card">
+        <div
+          onClick={() => (!link ? show(project) : dummy())}
+          className="project__card"
+        >
           <div className="project__card__top">
             <div className="project__card__top__overlay">
               <a
                 className="project__card__top__btn"
-                onClick={() => show(project)}
-                href="#projects"
+                onClick={() => (!link ? show(project) : dummy())}
+                href={
+                  link
+                    ? "https://eddiecornelious.github.io/stream/"
+                    : "#projects"
+                }
+                target={link ? "_blank" : ""}
               >
                 VIEW DEMO
               </a>
@@ -36,6 +47,7 @@ const ProjectCard = ({ project, show }) => {
     </div>
   );
 };
+
 const Projects = ({ data, showProject }) => {
   return (
     <section id="projects" className="projects__section">
@@ -48,7 +60,7 @@ const Projects = ({ data, showProject }) => {
         <div className="row">
           <ProjectCard show={showProject} project={data["1"]} />
 
-          <ProjectCard show={showProject} project={data["2"]} />
+          <ProjectCard link={true} show={showProject} project={data["2"]} />
 
           <ProjectCard show={showProject} project={data["3"]} />
 
