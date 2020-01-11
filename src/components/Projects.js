@@ -6,27 +6,19 @@ import LazyLoad from "react-lazyload";
 function dummy() {
   return null;
 }
-const ProjectCard = ({ project, show, link }) => {
+const ProjectCard = ({ project }) => {
   return (
     <div className="small-margin col-md-6 col-lg-4">
       <Fade bottom>
-        <div
-          onClick={() => (!link ? show(project) : dummy())}
-          className="project__card"
-        >
+        <div className="project__card">
           <div className="project__card__top">
             <div className="project__card__top__overlay">
               <a
+                target="_blank"
                 className="project__card__top__btn"
-                onClick={() => (!link ? show(project) : dummy())}
-                href={
-                  link
-                    ? "https://eddiecornelious.github.io/stream/"
-                    : "#projects"
-                }
-                target={link ? "_blank" : ""}
+                href={project.url}
               >
-                VIEW DEMO
+                VIEW LIVE
               </a>
             </div>
             <LazyLoad>
@@ -48,7 +40,7 @@ const ProjectCard = ({ project, show, link }) => {
   );
 };
 
-const Projects = ({ data, showProject }) => {
+const Projects = ({ data }) => {
   return (
     <section id="projects" className="projects__section">
       <div className="section__header">
@@ -58,13 +50,13 @@ const Projects = ({ data, showProject }) => {
       </div>
       <div className="container-fluid">
         <div className="row">
-          <ProjectCard show={showProject} project={data["1"]} />
+          <ProjectCard project={data["1"]} />
 
-          <ProjectCard link={true} show={showProject} project={data["2"]} />
+          <ProjectCard project={data["2"]} />
 
-          <ProjectCard show={showProject} project={data["3"]} />
+          <ProjectCard project={data["3"]} />
 
-          <ProjectCard show={showProject} project={data["4"]} />
+          <ProjectCard project={data["4"]} />
         </div>
       </div>
     </section>

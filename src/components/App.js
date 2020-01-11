@@ -1,22 +1,22 @@
+import "bootstrap/dist/css/bootstrap.css";
 import "../styles/App.scss";
+
 import React from "react";
-import Header from "./Header.js";
-import About from "./About.js";
-import Skills from "./Skills.js";
-import skillsData from "./skills_data.js";
-import Projects from "./Projects.js";
-import projectsData from "./project_data.js";
-import ProjectDemo from "./ProjectDemo.js";
-import Footer from "./Footer.js";
 import Loader from "./Loader.js";
+import skillsData from "./skills_data.js";
+import projectsData from "./project_data.js";
+
+const Header = React.lazy(() => import("./Header.js"));
+const About = React.lazy(() => import("./About.js"));
+const Skills = React.lazy(() => import("./Skills.js"));
+const Projects = React.lazy(() => import("./Projects.js"));
+const Footer = React.lazy(() => import("./Footer.js"));
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      loadedHero: false,
-      shouldShowDemo: false,
-      currentDemo: null
+      loadedHero: false
     };
   }
 
@@ -32,39 +32,27 @@ class App extends React.Component {
     });
   }
 
-  showProject(project) {
-    this.setState({
-      shouldShowDemo: true,
-      currentDemo: project.demo
-    });
-  }
-
-  hideProject() {
-    this.setState({
-      shouldShowDemo: false,
-      currentDemo: null
-    });
-  }
-
   render() {
     if (!this.state.loadedHero) {
       return <Loader />;
     }
     return (
       <React.Fragment>
-        <ProjectDemo
-          currentDemo={this.state.currentDemo}
-          shouldShowDemo={this.state.shouldShowDemo}
-          closeProject={this.hideProject.bind(this)}
-        />
-        <Header />
-        <About />
-        <Skills data={skillsData} />
-        <Projects
-          showProject={this.showProject.bind(this)}
-          data={projectsData}
-        />
-        <Footer />
+        <React.Suspense fallback={<div>Loading...</div>}>
+          <Header />
+        </React.Suspense>
+        <React.Suspense fallback={<div>Loading...</div>}>
+          <About />
+        </React.Suspense>
+        <React.Suspense fallback={<div>Loading...</div>}>
+          <Skills data={skillsData} />
+        </React.Suspense>
+        <React.Suspense fallback={<div>Loading...</div>}>
+          <Projects data={projectsData} />
+        </React.Suspense>
+        <React.Suspense fallback={<div>Loading...</div>}>
+          <Footer />
+        </React.Suspense>
       </React.Fragment>
     );
   }
