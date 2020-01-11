@@ -116,12 +116,12 @@ self.__precacheManifest = [
     "url": "/static/media/react.a9af1c0c.png"
   },
   {
-    "revision": "8087eb0efce0b13846121d02d32ca739",
-    "url": "/static/media/circuit.8087eb0e.jpg"
-  },
-  {
     "revision": "34376dcdaeae288bfef9ee5f66f24884",
     "url": "/static/media/internet.34376dcd.jpg"
+  },
+  {
+    "revision": "8087eb0efce0b13846121d02d32ca739",
+    "url": "/static/media/circuit.8087eb0e.jpg"
   },
   {
     "revision": "1513d71c0f6a1008e440690985979f64",
@@ -136,7 +136,7 @@ self.__precacheManifest = [
     "url": "/static/media/server.8aed32ba.jpg"
   },
   {
-    "revision": "fb4b06c7b1ff5cf04bd64423dfe8fee9",
+    "revision": "23e96f79cff7f0a36b89ddb8b91ac28f",
     "url": "/index.html"
   }
 ];
