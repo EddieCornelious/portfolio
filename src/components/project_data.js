@@ -27,7 +27,7 @@ const data = {
     url: "https://eddiecornelious.github.io/stream/"
   },
   4: {
-    title: "Fitness Center",
+    title: "Xenos Fitness",
     info:
       "A site built for a fitness center that uses HTML, CSS, NodeJS, and React",
     img_src: fitness,
