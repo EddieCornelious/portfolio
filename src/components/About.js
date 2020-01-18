@@ -36,7 +36,7 @@ const About = () => {
           </span>
         </h2>
       </div>
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <div className="col-sm-12 col-md-6">
             <div className="col-sm-12">
@@ -56,10 +56,16 @@ const About = () => {
             </div>
           </div>
           <div className="col-sm-12 col-md-6">
-            <div className="skill__image__container">
-              <AboutImage alt={"Node Image"} imgSrc={nodeIMG} delay={1000} />
-              <AboutImage alt={"JS Image"} imgSrc={jsIMG} delay={2000} />
-              <AboutImage alt={"React Image"} imgSrc={reactIMG} delay={3000} />
+            <div className="col-sm-12">
+              <div className="skill__image__container">
+                <AboutImage alt={"Node Image"} imgSrc={nodeIMG} delay={1000} />
+                <AboutImage alt={"JS Image"} imgSrc={jsIMG} delay={2000} />
+                <AboutImage
+                  alt={"React Image"}
+                  imgSrc={reactIMG}
+                  delay={3000}
+                />
+              </div>
             </div>
           </div>
         </div>

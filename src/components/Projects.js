@@ -8,7 +8,7 @@ function dummy() {
 }
 const ProjectCard = ({ project }) => {
   return (
-    <div className="small-margin col-md-6 col-lg-4">
+    <div className="small-margin col-sm-6 col-lg-4">
       <Fade bottom>
         <div className="project__card">
           <div className="project__card__top">

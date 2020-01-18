@@ -45,7 +45,11 @@
 
 .skill__image__container {
   img {
-    width: 20rem;
+    width: 33.3%;
+
+    @media screen and (max-width: 991px) {
+      width: 13.3%;
+    }
   }
 }
 
