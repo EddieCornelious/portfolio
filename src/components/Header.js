@@ -15,7 +15,7 @@ const Header = () => {
           <h1 className="header__name">EDDIE CORNELIOUS</h1>
         </Roll>
         <Slide right>
-          <em className="header__career">FRONT END ENGINEER</em>
+          <em className="header__career">Software Developer</em>
         </Slide>
         <Fade bottom delay={1500}>
           <a href="#projects" className="header__btn">

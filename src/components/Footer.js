@@ -34,7 +34,7 @@ const Footer = () => {
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="https://res.cloudinary.com/dglhvkmjn/image/upload/v1560386281/Eddie_Cornelious_Resume_xeyzv8.pdf"
+                  href="https://res.cloudinary.com/dglhvkmjn/image/upload/v1579355188/Eddie_Cornelious_Resume2020_b3pcj3.pdf"
                 >
                   Resume
                 </a>
