@@ -5,7 +5,7 @@ import LazyLoad from "react-lazyload";
 
 const SkillsCard = ({ first, data, id }) => {
   return (
-    <div className="col-md-3">
+    <div className="col-xs-12 col-sm-6 col-md-3">
       <div className={first ? "skills__card card__first" : "skills__card"}>
         <LazyLoad>
           <div className={"skills__card__overlay overlay__" + id}>&nbsp;</div>
