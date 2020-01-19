@@ -12,6 +12,11 @@
       @content;
     }
   }
+  @if $breakpoint == desktop-sm {
+    @media screen and (max-width: 1500px) {
+      @content;
+    }
+  }
   @if $breakpoint == tab-land {
     @media screen and (max-width: 1200px) {
       @content;

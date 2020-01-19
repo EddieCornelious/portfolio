@@ -18,6 +18,10 @@ html {
     font-size: 56.25%;
   }
 
+  @include respond(desktop-sm) {
+    font-size: 50%;
+  }
+
   @include respond(tab-land) {
     font-size: 50%;
   }
