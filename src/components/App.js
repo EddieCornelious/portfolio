@@ -40,17 +40,13 @@ class App extends React.Component {
       <React.Fragment>
         <React.Suspense fallback={<div>&nbsp;</div>}>
           <Header />
-        </React.Suspense>
-        <React.Suspense fallback={<div>&nbsp;</div>}>
+
           <About />
-        </React.Suspense>
-        <React.Suspense fallback={<div>&nbsp;</div>}>
+
           <Skills data={skillsData} />
-        </React.Suspense>
-        <React.Suspense fallback={<div>&nbsp;</div>}>
+
           <Projects data={projectsData} />
-        </React.Suspense>
-        <React.Suspense fallback={<div>&nbsp;</div>}>
+
           <Footer />
         </React.Suspense>
       </React.Fragment>
