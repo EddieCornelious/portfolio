@@ -8,7 +8,7 @@ function dummy() {
 }
 const ProjectCard = ({ project }) => {
   return (
-    <div className="small-margin col-sm-6 col-lg-4">
+    <div className="small-margin col-sm-6">
       <Fade bottom>
         <div className="project__card">
           <div className="project__card__top">
@@ -48,7 +48,7 @@ const Projects = ({ data }) => {
           <span className="section__header__top__text">PROJECT PORTFOLIO</span>
         </h2>
       </div>
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <ProjectCard project={data["1"]} />
 
