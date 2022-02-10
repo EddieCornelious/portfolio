@@ -5,7 +5,7 @@
   "homepage": "https://eddiecornelious.com",
   "dependencies": {
     "bootstrap": "^3.3.4",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-lazyload": "^2.6.2",
