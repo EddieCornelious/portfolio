@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://eddiecornelious.com",
   "dependencies": {
-    "bootstrap": "^3.3.4",
+    "bootstrap": "^3.4.1",
     "node-sass": "^4.13.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
