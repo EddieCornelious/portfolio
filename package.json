@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": false,
-  "homepage": "eddiecornelious.github.io",
+  "homepage": "eddiecornelious.github.io/portfolio",
   "dependencies": {
     "bootstrap": "^3.3.4",
     "node-sass": "npm:sass@^1.49.9",
