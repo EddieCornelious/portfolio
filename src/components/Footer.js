@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div id = "footer" className="footer">
       <div className="logo__footer">
         <div className="footer__top">
           <h3>EC</h3>
@@ -33,8 +33,7 @@ const Footer = () => {
               <h3>
                 <a
                   rel="noopener noreferrer"
-                  target="_blank"
-                  href=""
+                  href="#footer"
                 >
                   Resume
                 </a>
