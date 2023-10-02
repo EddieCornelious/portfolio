@@ -23,7 +23,7 @@ const data = {
   2: {
     title: "DashBoard Box",
     info:
-      "A dashboard/portal for that allows users to view popular Twitch games and streams live and sort or filter results based on certain criteria",
+      "A dashboard/portal for that allows users to view popular movies and sort or filter results based on certain criteria",
     img_src: stream,
     github: "https://github.com/EddieCornelious/stream",
     url: "https://twitchy-witchy.netlify.app"
